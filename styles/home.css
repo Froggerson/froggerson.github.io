@@ -1,5 +1,31 @@
 :root {
-  --seafoam: coral;
-  --off-white: blue;
-  --not-black: 15px;
+  --seafoam: #B2DDDA;
+  --off-white: #F7F3EC;
+  --not-black: #2B2E34;
+}
+
+body{
+  background-color: var(--off-white);
+  color:var(--not-black);
+}
+nav{
+  overflow: hidden;
+  background-color: var(--off-white);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+nav a{
+  color:var(--not-black);
+  float:right;
+  padding:20px 15px;
+  font-size: 30px;
+  display:block;
+  text-align:center;
+  text-decoration: none;
+
+}
+.main{
+  display:flex;
+  flex-direction: row;
 }
