@@ -1,0 +1,32 @@
+:root {
+  --seafoam: #B2DDDA;
+  --off-white: #F7F3EC;
+  --not-black: #2B2E34;
+}
+
+body{
+  background-color: var(--off-white);
+  color:var(--not-black);
+  font-family: 'Roboto Slab', serif;
+  font-weight: lighter;
+}
+
+h1{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+
+.main{
+  display:flex;
+  flex-direction: row;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.intro{
+  width: 30vw;
+}
