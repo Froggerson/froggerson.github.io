@@ -1,0 +1,37 @@
+:root {
+  --seafoam: #B2DDDA;
+  --off-white: #F7F3EC;
+  --not-black: #2B2E34;
+}
+
+.nav {
+  width:100%;
+  top:0;
+  margin-top:0;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  float: right;
+  color: var(--not-black);
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: lighter;
+  padding: 2vh 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: border-bottom .2s ease;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  border-bottom: solid 3px var(--seafoam);
+
+}
+
+/* Add a color to the active/current link */
+.nav a.active {
+  border-bottom: solid 3px var(--not-black);
+}
