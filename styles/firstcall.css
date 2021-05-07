@@ -10,22 +10,54 @@ body{
   margin:0;
 }
 
+.container{
+  margin-top: 5vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+h1{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 16px;
+}
+
 .header-container{
   left: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  width:100%;
+  justify-content: space-between;
+  width:65vw;
+}
+
+.header-info{
+  margin-left: 5vw;
 }
 
 .laptop{
-  width:35%;
+  width:60%;
 }
 
-.design-system{
-  width:40%;
+.image-container{
+  width:100%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
 }
-
-.users{
-  width: 40%;
+.image{
+  width:100%;
+  text-align: center;
 }
