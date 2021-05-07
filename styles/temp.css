@@ -93,11 +93,14 @@ p{
   font-weight: lighter;
   font-size: 12px;
 }
+
 .project{
   cursor: pointer;
   width: 300px;
   height: 350px;
+  text-decoration: none;
   border: solid 3px var(--not-black);
+  color:var(--not-black);
   transition: transform .2s ease-in;
 }
 

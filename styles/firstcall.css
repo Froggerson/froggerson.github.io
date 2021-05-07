@@ -1,0 +1,31 @@
+body{
+  background-color: var(--off-white);
+  color:var(--not-black);
+  font-family: 'Roboto Slab', serif;
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  margin:0;
+}
+
+.header-container{
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+}
+
+.laptop{
+  width:35%;
+}
+
+.design-system{
+  width:40%;
+}
+
+.users{
+  width: 40%;
+}
