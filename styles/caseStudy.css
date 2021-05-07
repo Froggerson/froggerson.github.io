@@ -1,16 +1,16 @@
-body{
+body {
   background-color: var(--off-white);
-  color:var(--not-black);
+  color: var(--not-black);
   font-family: 'Roboto Slab', serif;
   font-weight: lighter;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column wrap;
-  margin:0;
+  margin: 0;
 }
 
-.container{
+.container {
   margin-top: 5vh;
   width: 40vw;
   display: flex;
@@ -18,46 +18,52 @@ body{
   align-items: flex-start;
   justify-content: space-between;
 }
-h1{
+
+h1 {
   font-family: 'Roboto Mono', monospace;
   font-size: 48px;
   font-weight: bold;
 }
 
-h2{
+h2 {
   font-family: 'Roboto Mono', monospace;
   font-size: 32px;
   font-weight: bold;
 }
 
-p{
+p {
   font-size: 16px;
 }
 
-.header-container{
+.header-container {
   left: 50%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width:65vw;
+  width: 65vw;
 }
 
-.header-info{
+.header-info {
   margin-left: 5vw;
 }
 
-.laptop{
-  width:60%;
+.laptop {
+  width: 60%;
 }
 
-.image-container{
-  width:100%;
+.phone {
+  width: 22%;
+}
+
+.image-container {
+  width: 100%;
   display: flex;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
-.image{
-  width:100%;
+
+.image {
+  width: 100%;
   text-align: center;
 }
